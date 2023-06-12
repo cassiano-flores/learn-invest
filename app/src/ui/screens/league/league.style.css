@@ -1,0 +1,32 @@
+.league--title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.league--title {
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 30px;
+  margin: 15px 0 15px 0;
+}
+
+.league--history-button {
+  position: absolute;
+  left: 10px;
+  font-family: poppins, sans-serif;
+  color: var(--primary-color);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.league--help-button {
+  position: absolute;
+  right: 10px;
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+  font-size: 25px;
+  color: var(--primary-color);
+  cursor: pointer;
+}

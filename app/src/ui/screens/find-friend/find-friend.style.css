@@ -1,0 +1,23 @@
+.find-friend--input-container {
+  position: relative;
+  margin-top: 20px;
+  padding: 3px;
+}
+
+.find-friend--search-button {
+  background-color: var(--neutral-color);
+  border: none;
+  border-radius: 50%;
+  width: 70px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.find-friend--search-button-icon {
+  width: 25px;
+}

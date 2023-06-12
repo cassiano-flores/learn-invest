@@ -1,0 +1,18 @@
+.activity-title-display--title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+}
+
+.activity-title-display--container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.activity-title-display--icon {
+  max-width: 34px;
+}

@@ -1,0 +1,17 @@
+.learn--container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-top: 15px;
+}
+
+.learn--help-button {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  text-decoration: none;
+  font-family: poppins, sans-serif;
+  font-size: 25px;
+  color: var(--primary-color);
+  cursor: pointer;
+}

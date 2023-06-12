@@ -1,0 +1,15 @@
+.create-container {
+  min-height: 100vh;
+  background: var(--emphasis-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 20px;
+  gap: 20px;
+  position: relative;
+}
+
+.create--go-back-container {
+  position: absolute;
+  right: 20px;
+}

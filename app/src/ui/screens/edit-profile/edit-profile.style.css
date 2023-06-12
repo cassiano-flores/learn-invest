@@ -1,0 +1,50 @@
+.edit-profile--logout-button {
+  text-decoration: underline;
+  font-family: poppins, sans-serif;
+  margin-top: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.edit-profile--menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.edit-profile--available-icons-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.edit-profile--container {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-profile--insert-question {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 50px;
+  height: 48px;
+  font-family: luckiestguy, sans-serif;
+  width: 100%;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.edit-profile--insert-question:hover {
+  box-shadow: 2px 2px 10px 0 var(--primary-color);
+}
+
+.input-container-padding {
+  padding: 5px;
+}

@@ -1,0 +1,76 @@
+.store--icon {
+  width: 80px;
+}
+
+.store--icon-button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid var(--neutral-color);
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.store-button {
+  background-color: var(--neutral-color);
+  color: var(--vibrant-color-primary);
+  border: 2px solid var(--vibrant-color-primary);
+  border-radius: 50px;
+  height: 40px;
+  font-family: luckiestguy, sans-serif;
+  width: 100px;
+  font-size: 16px;
+}
+
+.store-button-enable {
+  cursor: pointer;
+  transition: 0.3s;
+}
+.store-button-enable:hover {
+  box-shadow: 2px 2px 10px 0 var(--vibrant-color-primary);
+}
+
+.store--icons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.store--icon-name-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.store--title {
+  text-align: center;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.store--icon-name {
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 18px;
+}
+
+.store--moedas-icon {
+  width: 20px;
+}
+
+.store--price-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.store-button-disable {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  filter: invert(0%) sepia(2%) saturate(0%) hue-rotate(146deg) brightness(92%)
+    contrast(101%);
+}

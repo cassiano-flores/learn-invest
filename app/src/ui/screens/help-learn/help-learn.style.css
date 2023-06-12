@@ -1,0 +1,41 @@
+.help-seta {
+  filter: invert(8%) sepia(44%) saturate(3408%) hue-rotate(236deg)
+    brightness(100%) contrast(113%);
+  max-width: 20px;
+}
+
+.help-nivel-order-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.help-nivel-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.help-nivel-name {
+  font-size: 10px;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+.help-nivel-investidor-mestre {
+  scale: 1.3;
+}
+
+.help-destaque {
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 17px;
+}
+
+.help-sublinhado {
+  font-weight: bold;
+}

@@ -1,0 +1,93 @@
+.score-board--container {
+  display: flex;
+  justify-content: space-around;
+  width: 255px;
+}
+
+.score-board--item-container {
+  position: relative;
+}
+
+.score-board--number-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: luckiestguy, sans-serif;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: var(--neutral-color);
+  font-size: 20px;
+}
+
+.score-board--actual-question {
+  background-color: var(--primary-color);
+}
+
+.score-board--nexts-question {
+  background-color: var(--neutral-color-secundary);
+}
+
+.score-board-result {
+  width: 30px;
+  height: 30px;
+}
+
+.score-board--question-container {
+  position: relative;
+}
+
+.score-board--progress-bar {
+  position: absolute;
+  width: 23px;
+  height: 2px;
+  top: 15px;
+  left: 29px;
+  z-index: 0;
+}
+
+.score-board--progress-bar-wrong {
+  background-color: var(--vibrant-color-red);
+}
+
+.score-board--progress-bar-right {
+  background-color: var(--vibrant-color-primary);
+}
+
+.score-board--progress-actual-question {
+  background-color: var(--primary-color);
+  left: -22px;
+}
+
+.score-board--progress-bar-non-answered {
+  background-color: var(--neutral-color-secundary);
+  left: -22px;
+}
+
+.score-board--title {
+  color: var(--primary-color);
+  font-family: luckiestguy, sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.score-board {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.score-board--loader {
+  animation: is-rotating 1s infinite;
+  border: 2px solid var(--primary-color);
+  border-radius: 50%;
+  border-top-color: var(--neutral-color);
+  width: 100%;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}

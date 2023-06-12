@@ -1,0 +1,40 @@
+.face {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.face-small {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+#card {
+  transform-style: preserve-3d;
+  display: flex;
+  justify-content: center;
+}
+
+.flip {
+  animation: fliping-loader 1s infinite ease;
+}
+
+.loader-icon {
+  width: 100%;
+}
+
+@keyframes fliping-loader {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(180deg);
+  }
+}

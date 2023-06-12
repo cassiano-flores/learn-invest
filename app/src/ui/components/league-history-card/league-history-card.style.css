@@ -1,0 +1,67 @@
+.league-history-card--container {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid var(--neutral-color);
+  padding: 10px 0;
+}
+
+.league-history-card--user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.league-history-card--result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.league-history-card--user-name {
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 20px;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+.league-history-card--icon {
+  width: 60px;
+}
+
+.league-history-card--result {
+  font-family: luckiestguy, sans-serif;
+  font-size: 25px;
+  width: 124px;
+  text-align: center;
+}
+
+.league-history-card--data {
+  font-family: poppins, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  min-width: 75px;
+  text-align: left;
+}
+
+.league-history-card--result-DERROTA {
+  color: var(--vibrant-color-red);
+}
+
+.league-history-card--result-VITORIA {
+  color: var(--vibrant-color-primary);
+}
+
+.league-history-card--result-EMPATE {
+  color: var(--vibrant-color-yellow);
+}
+
+.league-history-card--result-ABERTO {
+  color: var(--primary-color);
+}

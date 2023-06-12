@@ -1,0 +1,20 @@
+.league-history-title {
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 30px;
+  margin: 15px 0 15px 0;
+  text-align: center;
+}
+
+.league-history-division {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 20px;
+}
+
+.league-history-buttons {
+  display: flex;
+  gap: 20px
+}

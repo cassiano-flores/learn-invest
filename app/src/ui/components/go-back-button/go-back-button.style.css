@@ -1,0 +1,6 @@
+.back-button {
+  border: none;
+  border-radius: 100%;
+  background-color: transparent;
+  cursor: pointer;
+}

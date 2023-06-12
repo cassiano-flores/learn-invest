@@ -1,0 +1,104 @@
+.friend-item--container {
+  width: 100%;
+  border-bottom: 2px solid var(--neutral-color);
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+
+.friend-item--image-profile-container {
+  width: 60px;
+  height: 60px;
+}
+
+.friend-item--image-profile {
+  width: 100%;
+  border-radius: 50%;
+  min-width: 60px;
+}
+
+.friend-item--information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 150px;
+}
+
+.friend-item--information-container {
+  display: flex;
+  gap: 10px;
+}
+
+.friend-item--information-nickname {
+  max-width: 150px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+}
+
+.friend-item--information-email {
+  max-width: 150px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: poppins, sans-serif;
+  font-size: 13px;
+  color: var(--neutral-color-secundary);
+}
+
+.friend-item--button-image {
+  max-width: 25px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.friend-item--button-image:hover {
+  transform: scale(1.1);
+}
+
+.friend-item--actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: 100%;
+  max-width: 76px;
+}
+
+.friend-item--delete-button {
+  background-color: var(--neutral-color-third);
+  border: none;
+  border-radius: 50px;
+  width: 20px;
+  height: 20px;
+  font-family: poppins, sans-serif;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.friend-item--delete-button:hover {
+  transform: scale(1.2);
+}
+
+.friend-item--delete-button-icon {
+  width: 100%;
+}
+
+.friend-item--add-button {
+  background-color: var(--neutral-color);
+  font-family: poppins, sans-serif;
+  border-radius: 50px;
+  color: var(--vibrant-color-primary);
+  border: 2px solid var(--vibrant-color-primary);
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.friend-item--add-button:hover {
+  transform: scale(1.1);
+}

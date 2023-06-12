@@ -1,0 +1,96 @@
+.list-rankers--ranker-container {
+  display: flex;
+  gap: 10px;
+  min-height: 90px;
+}
+
+.list-rankers--ranker-medal {
+  width: 30px;
+}
+
+.list-rankers--position-container {
+  min-width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-rankers--position {
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 25px;
+}
+
+.list-rankers--img-nick-point-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 2px solid var(--neutral-color);
+}
+
+.points-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.ranker-text {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.list-rankers--challenge-button {
+  background-color: var(--neutral-color);
+  color: var(--vibrant-color-primary);
+  border: 2px solid var(--vibrant-color-primary);
+  border-radius: 50px;
+  height: 40px;
+  font-family: luckiestguy, sans-serif;
+  width: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.list-rankers--challenge-button:hover {
+  box-shadow: 2px 2px 10px 0 var(--vibrant-color-primary);
+}
+
+.list-rankers--ranker-name {
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 20px;
+  max-width: 110px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.list-rankers--icon-img {
+  min-width: 60px;
+}
+
+.list-rankers--ranker-pdl {
+  font-family: luckiestguy, sans-serif;
+  color: var(--vibrant-color-yellow);
+  font-size: 15px;
+}
+
+.list-rankers--ranker-data {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.list-rankers--message {
+  color: var(--primary-color);
+  height: 40px;
+  font-family: luckiestguy, sans-serif;
+  width: 100px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,23 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 5px;
+  color: var(--primary-color);
+  font-family: luckiestguy, sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.input {
+  padding: 0 10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  font-family: poppins, sans-serif;
+  font-size: 15px;
+}

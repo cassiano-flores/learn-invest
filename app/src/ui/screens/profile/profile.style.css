@@ -1,0 +1,131 @@
+.profile--container {
+  position: relative;
+  overflow-y: hidden;
+  height: 360px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.profile--container-background {
+  background: var(--emphasis-color);
+  height: 450px;
+  width: 100%;
+  border-radius: 24px;
+  position: absolute;
+  top: -90px;
+}
+
+.profile--data-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+  min-width: 190px;
+}
+
+.profile--profile-image-container {
+  min-width: 105px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.profile--edit-profile-image {
+  position: absolute;
+  bottom: 0px;
+  right: -5px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.profile--edit-profile-image:hover {
+  transform: scale(1.1);
+}
+.profile--profile-image {
+  width: 100%;
+}
+
+.profile--data-title {
+  font-family: luckiestguy, sans-serif;
+  font-size: 25px;
+  color: var(--neutral-color);
+  max-width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile--data {
+  font-family: poppins, sans-serif;
+  color: var(--neutral-color);
+  max-width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.profile--data-member-container {
+  background-color: #ffea00;
+  padding: 3px;
+  border-radius: 10px;
+  font-family: luckiestguy, sans-serif;
+  font-size: 10px;
+  color: var(--primary-color);
+}
+
+.profile--friends-container {
+  padding: 0 10px 80px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile--friends-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile--add-button {
+  background-color: var(--vibrant-color-primary);
+  color: var(--neutral-color);
+  border: none;
+  border-radius: 20px;
+  width: 120px;
+  height: 30px;
+  font-family: luckiestguy, sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.profile--add-button:hover {
+  box-shadow: 2px 2px 10px 0 var(--vibrant-color-primary);
+}
+
+.profile--friends-title {
+  text-align: center;
+  margin-top: 10px;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+  font-size: 25px;
+}
+
+.profile--friend-requests-container {
+  padding: 0 20px;
+}
+
+.profile-loader--container {
+  padding-top: 140px;
+}
+
+.profile--no-friends-message {
+  font-family: poppins, sans-serif;
+  color: var(--primary-color);
+  text-align: center;
+}

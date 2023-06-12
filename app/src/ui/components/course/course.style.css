@@ -1,0 +1,72 @@
+.course--container {
+  padding: 10px;
+  user-select: none;
+}
+
+.course--container-disabled {
+  padding: 10px;
+  user-select: none;
+  opacity: 0.5;
+}
+
+.course--title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--neutral-color);
+}
+
+.course--title {
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+}
+
+.course--title-label {
+  font-size: 13px;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+}
+
+.course--title-icon-label {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.course--activity-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding: 5px;
+  border-bottom: solid 2px var(--neutral-color);
+  min-height: 75px;
+  align-items: center;
+}
+
+.course--activity-title {
+  font-size: 15px;
+  font-family: luckiestguy, sans-serif;
+  color: var(--primary-color);
+}
+
+.course--activity-container-complete {
+  color: var(--vibrant-color-primary);
+}
+
+.course--activities-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.course--activity-status {
+  font-size: 15px;
+  font-family: poppins, sans-serif;
+  color: var(--vibrant-color-primary);
+}
+
+.course--container .course--activity-container:hover {
+  border-bottom: solid 2px var(--primary-color);
+  cursor: pointer;
+}

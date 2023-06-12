@@ -1,0 +1,56 @@
+.achievement-list--container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+}
+
+.achievement-list--container::-webkit-scrollbar {
+  height: 1px;
+}
+
+.achievement-list--container::-webkit-scrollbar-track {
+  background: var(--background-color);
+}
+
+.achievement-list--container::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: var(--primary-color);
+}
+
+.achievement--container {
+  border: 2px solid var(--neutral-color);
+  border-radius: 5px;
+  margin: 8px;
+  display: flex;
+  flex-shrink: 0;
+  flex-basis: 100%;
+  scroll-snap-align: start;
+  padding: 15px;
+}
+
+.achievement--image-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.achievement--text {
+  font-family: poppins, sans-serif;
+  color: var(--primary-color);
+}
+
+.achievement--titulo {
+  text-align: center;
+  color: var(--primary-color);
+  font-family: luckiestguy, sans-serif;
+}
+
+.achievement--content {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}

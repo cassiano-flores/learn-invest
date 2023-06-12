@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: luckiestguy;
+  src: url(./assets/font/LuckiestGuy-Regular.ttf);
+}
+
+@font-face {
+  font-family: poppins;
+  src: url(./assets/font/Poppins-Regular.ttf);
+}
+
+:root {
+  --background-color: #eeeedd;
+  --primary-color: #0d063e;
+  --primary-color-emphasis: #170431;
+  --emphasis-color: radial-gradient(
+    50% 50% at 50% 50%,
+    #240673 0%,
+    #0c053d 100%
+  );
+
+  --neutral-color: #ffffff;
+  --neutral-color-secundary: #545454;
+  --neutral-color-third: #eeeeee;
+
+  --vibrant-color-primary: #00c643;
+  --vibrant-color-red: #c60000;
+  --vibrant-color-yellow: #cdb400;
+}
+
+.container {
+  padding: 0 20px 80px 20px;
+  position: relative;
+  background-color: var(--background-color);
+  width: 100%;
+}
+
+.centralize-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
